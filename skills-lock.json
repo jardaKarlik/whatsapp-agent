@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "senior-architect": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/senior-architect/SKILL.md",
+      "computedHash": "272dac60c7fc74bf07d672bc5d1becb0a8b08a326938c3442e9a95b4978d42c4"
+    }
+  }
+}

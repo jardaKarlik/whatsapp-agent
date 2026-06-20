@@ -1,0 +1,20 @@
+{
+  "name": "whatsapp-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "listener": "node index.js",
+    "server": "node server.js",
+    "start": "concurrently \"npm run listener\" \"npm run server\""
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.80.0",
+    "better-sqlite3": "^12.8.0",
+    "concurrently": "^9.2.1",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "googleapis": "^171.4.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.34.6"
+  }
+}
